@@ -5,9 +5,9 @@ import LogIn from '../screens/LogIn';
 const Stack = createStackNavigator();
 
 export default function NotAutenticated() {
-  return (    
-        <Stack.Navigator initialRouteName="LogIn">
-        <Stack.Screen name="LogIn" component={LogIn}/>
-        </Stack.Navigator>
-  )
+  return (
+    <Stack.Navigator initialRouteName="LogIn">
+      <Stack.Screen name="LogIn" component={LogIn} />
+    </Stack.Navigator>
+  );
 }
